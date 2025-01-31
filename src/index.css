@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary:#262626;
+    --color-secondary:rgba(255,255,255);
+    --color-bg:#f7f7f7;
+
+    --font-roman:"Gideon Roman", serif;
+    --font-poppins:"Poppins", serif;
+
+    --breakpoint-xs:25rem;
+}
