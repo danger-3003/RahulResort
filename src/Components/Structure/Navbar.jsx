@@ -19,7 +19,7 @@ function Navbar() {
     };
 
     return (
-        <div className="fixed top-0 w-full font-poppins">
+        <div className="fixed top-0 w-full font-poppins z-20">
             <div className="absolute bg-secondary w-full z-20 h-16">
                 <div className="h-full py-2 flex items-center justify-center border-b border-primary/60">
                     <div
@@ -83,27 +83,22 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <Link className="w-full px-5">
+                    <Link to="/" className="w-full px-5" onClick={handelMenu}>
                         <div className="uppercase font-semibold border-b border-primary/40 flex items-center px-3 h-12 hover:bg-primary/10 duration-300">
                             Home
                         </div>
                     </Link>
-                    <Link className="w-full px-5">
+                    <Link to="#about" className="w-full px-5" onClick={handelMenu}>
                         <div className="uppercase font-semibold border-b border-primary/40 flex items-center px-3 h-12 hover:bg-primary/10 duration-300">
                             About
                         </div>
                     </Link>
-                    <Link className="w-full px-5">
-                        <div className="uppercase font-semibold border-b border-primary/40 flex items-center px-3 h-12 hover:bg-primary/10 duration-300">
-                            Accommodation
-                        </div>
-                    </Link>
-                    <Link className="w-full px-5">
+                    <Link to="#gallery" className="w-full px-5" onClick={handelMenu}>
                         <div className="uppercase font-semibold border-b border-primary/40 flex items-center px-3 h-12 hover:bg-primary/10 duration-300">
                             Gallery
                         </div>
                     </Link>
-                    <Link className="w-full px-5">
+                    <Link to="#contact" className="w-full px-5" onClick={handelMenu}>
                         <div className="uppercase font-semibold flex items-center px-3 h-12 hover:bg-primary/10 duration-300">
                             Contact
                         </div>
