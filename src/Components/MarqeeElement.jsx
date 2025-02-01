@@ -9,7 +9,7 @@ function MarqeeElement() {
     <>
         <div className='flex items-center justify-center flex-col w-full font-poppins'>
             <p className='font-roman text-3xl xs:text-4xl md:text-5xl font-semibold uppercase'>Our Amenities</p>
-            <Marquee pauseOnHover autoFill gradient gradientColor='white' gradientWidth={20} className='mt-10'>
+            <Marquee pauseOnHover autoFill gradient gradientColor='#f7f7f7' gradientWidth={20} className='mt-10'>
                 <div className='flex items-center justify-start flex-col gap-2 mx-3'>
                     <FontAwesomeIcon icon={faFan} className='text-primary text-3xl'/>
                     <p className='text-center'>Air<br />Conditioner</p>

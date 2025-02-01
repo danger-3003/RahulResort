@@ -20,7 +20,7 @@ function Navbar() {
 
     return (
         <div className="fixed top-0 w-full font-poppins z-20">
-            <div className="absolute bg-secondary w-full z-20 h-16">
+            <div className="absolute bg-secondary w-full z-20 h-20">
                 <div className="h-full py-2 flex items-center justify-center border-b border-primary/60">
                     <div
                         className="absolute group hover:bg-primary bg-secondary group w-8 h-8 left-5 rounded-full border border-primary flex items-center justify-center duration-300"
