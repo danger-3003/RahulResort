@@ -37,9 +37,15 @@ function Footer() {
                 <div className='w-full border-t border-secondary/50 flex items-center justify-center'>
                     <div className='w-full py-4 lg:w-[60rem] flex items-center justify-center xs:justify-between flex-col xs:flex-row'>
                         <div className=' flex items-center justify-start gap-5'>
-                            <FontAwesomeIcon icon={faWhatsapp} className='text-secondary text-2xl'/>
-                            <FontAwesomeIcon icon={faInstagram} className='text-secondary text-2xl'/>
-                            <FontAwesomeIcon icon={faFacebook} className='text-secondary text-xl'/>
+                            <a href="">
+                                <FontAwesomeIcon icon={faWhatsapp} className='text-secondary text-2xl'/>
+                            </a>
+                            <a href="">
+                                <FontAwesomeIcon icon={faInstagram} className='text-secondary text-2xl'/>
+                            </a>
+                            <a href="">
+                                <FontAwesomeIcon icon={faFacebook} className='text-secondary text-2xl'/>
+                            </a>
                         </div>
                         <div className='text-secondary font-roman mt-2 xs:mt-0'>
                             <p>Rahul Resorts, Araku</p>
