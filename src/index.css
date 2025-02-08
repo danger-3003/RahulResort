@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 @theme{
     --color-primary:#262626;
@@ -9,4 +9,7 @@
     --font-poppins:"Poppins", serif;
 
     --breakpoint-xs:25rem;
-}
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
